@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="clockform">
+      <h1></h1>
+    </div>
+    <form id="greeting_form">
+      <input
+        required
+        maxlength="15"
+        id="greeting"
+        type="text"
+        placeholder="What is your name?"
+      />
+      <button id="greetingBtn">제출</button>
+    </form>
+    <h2 id="greetingtext"></h2>
+    <form id="maintodo">
+      <span>What is your main focus for today?</span>
+      <input required type="text" />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quotes">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

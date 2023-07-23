@@ -1,0 +1,92 @@
+@import "reset.css";
+
+.hidden {
+  display: none;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+img {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 80%;
+  position: absolute;
+}
+#clockform h1 {
+  font-size: 150px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+#greetingtext {
+  font-size: 50px;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+}
+#quotes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+}
+#quotes span:first-child {
+  font-size: 20px;
+  color: white;
+}
+#quotes span:last-child {
+  margin-top: 5px;
+  font-size: 16px;
+  color: white;
+}
+#maintodo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#maintodo span {
+  font-size: 30px;
+  color: white;
+}
+#maintodo input,
+#maintodo input:focus {
+  font-size: 30px;
+  color: white;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 2px white;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+}
+#weather {
+  right: 20px;
+  top: 20px;
+  display: flex;
+  position: fixed;
+  color: white;
+}
+#todo-list {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 5px 0px;
+}
+#todo-list span {
+  color: white;
+}
+#todo-list button {
+  margin-left: 5px;
+}
